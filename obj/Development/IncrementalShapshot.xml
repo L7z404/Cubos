@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CUBOS</Database>
+    <Server>DESKTOP-S3NMPCH</Server>
+    <ConnectionString>Data Source=DESKTOP-S3NMPCH;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>dKKQWjrc76NOsa6Pt/6AIGt/O20=04/04/2022 11:41:04 p. m.04/04/2022 05:20:04 p. m.</TimeStamp>
+        <ID>
+          <String>DB Rent Car DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ZXcSYnP8LGkfBfarr0IZALBNwNg=04/04/2022 05:23:50 p. m.04/04/2022 05:23:49 p. m.</TimeStamp>
+        <ID>
+          <String>DB Rent Car DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TbJ0EmBWoGfBYdhYxTgZy9Vjkn0=04/04/2022 05:34:31 p. m.04/04/2022 05:24:59 p. m.</TimeStamp>
+        <ID>
+          <String>Dim Automovil</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>eWotnJM+Sgx6XPuoFxDri8YMU/w=04/04/2022 05:27:33 p. m.04/04/2022 05:24:59 p. m.</TimeStamp>
+        <ID>
+          <String>Dim Cliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JxB/Q8XbQpyntHbc4kr2DPuLmKI=04/04/2022 05:32:09 p. m.04/04/2022 05:24:59 p. m.</TimeStamp>
+        <ID>
+          <String>Dim Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>dwM2M+XIMFW97SAd+8ts0ap48ls=04/04/2022 05:34:32 p. m.04/04/2022 05:24:59 p. m.WpRyb82DcQjyW0FByhVSeoKFKiE=04/04/2022 05:25:00 p. m.04/04/2022 05:24:59 p. m.</TimeStamp>
+        <ID>
+          <String>DB Rent Car DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>6qR/l7Y35xNszt7Ejx0KzkJ9uP0=04/04/2022 05:05:02 p. m.04/04/2022 05:05:01 p. m.</TimeStamp>
+      <ID>
+        <String>CUBOS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-04-05T05:02:31.866667Z</LastDeployed>
+</DeploymentSnapshot>
